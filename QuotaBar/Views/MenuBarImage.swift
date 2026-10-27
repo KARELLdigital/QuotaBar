@@ -192,7 +192,7 @@ enum MenuBarImage {
         ]
         let rowLabelAttrs: [NSAttributedString.Key: Any] = [
             .font: NSFont.systemFont(ofSize: 7, weight: .semibold),
-            .foregroundColor: NSColor.labelColor.withAlphaComponent(0.9),
+            .foregroundColor: NSColor.labelColor,
         ]
         let numAttrs: [NSAttributedString.Key: Any] = [
             // Tiny numerals need the primary foreground, including on the highlighted
